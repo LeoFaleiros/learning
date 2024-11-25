@@ -33,17 +33,24 @@
 #     print("Por favor, insira um número válido.")
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-try:
-    num1 = int(input("Digite o primeiro número inteiro:"))
-    num2 = int(input("Digite o segundo número inteiro:"))
-    divisao = num1 // num2
-    print(f"A divisão inteira entre {num1} e {num2} é {divisao}")
-except ValueError:
-    print("Por favor, insira números inteiros válidos.")
-except ZeroDivisionError:
-    print("Não é possível dividir por zero.")
-    
+# try:
+#     num1 = int(input("Digite o primeiro número inteiro:"))
+#     num2 = int(input("Digite o segundo número inteiro:"))
+#     divisao = num1 // num2
+#     print(f"A divisão inteira entre {num1} e {num2} é {divisao}")
+# except ValueError:
+#     print("Por favor, insira números inteiros válidos.")
+# except ZeroDivisionError:
+#     print("Não é possível dividir por zero.")
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+try:
+    num = float(input("Digite um número: "))
+    quadrado = num ** 2
+    print(f"O quadrado de {num} é {quadrado}")
+except ValueError:
+    print("Por favor, insira um número válido.")
+
 
 # #### Números de Ponto Flutuante (`float`)
 
