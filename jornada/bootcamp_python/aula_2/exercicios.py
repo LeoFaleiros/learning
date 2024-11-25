@@ -1,15 +1,32 @@
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
-try:
-    num1 = int(input("Digite o primeiro número inteiro: "))
-    num2 = int(input("Digite o segundo número inteiro: "))
-    resultado = num1 + num2
-    print(f"A soma de {num1} e {num2} é igual a {resultado}.")
-except ValueError:
-    print("Por favor, insira números inteiros válidos.") 
-# 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+# try:
+#     num1 = int(input("Digite o primeiro número inteiro: "))
+#     num2 = int(input("Digite o segundo número inteiro: "))
+#     resultado = num1 + num2
+#     print(f"A soma de {num1} e {num2} é igual a {resultado}.")
+# except ValueError:
+#     print("Por favor, insira números inteiros válidos.")
+#Este código só aceita números inteiros no input, para considerar a parte inteira de um número float, seria necessário usar o cast float() no input e
+#posteriormente converter os inputs para int().
+
+# # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+# try:
+#     num = float(input("Digite um número: "))
+#     if num < 5:
+#         print("O número deve ser maior que 5.")
+#         exit()
+#     else:
+#         resto = num % 5
+#         print(f"O resto da divisão de {num} por 5 é {resto}.")
+# except ValueError:
+#     print("Por favor, insira um número válido.")
+
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+    
+
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
