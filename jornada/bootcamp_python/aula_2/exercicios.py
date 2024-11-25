@@ -44,17 +44,25 @@
 #     print("Não é possível dividir por zero.")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-try:
-    num = float(input("Digite um número: "))
-    quadrado = num ** 2
-    print(f"O quadrado de {num} é {quadrado}")
-except ValueError:
-    print("Por favor, insira um número válido.")
+# try:
+#     num = float(input("Digite um número: "))
+#     quadrado = num ** 2
+#     print(f"O quadrado de {num} é {quadrado}")
+# except ValueError:
+#     print("Por favor, insira um número válido.")
 
 
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+try:
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    soma = num1 + num2
+    print(f"A soma de {num1} e {num2} é igual a {soma}")
+except ValueError:
+    print("Por favor, insira números válidos.")
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
