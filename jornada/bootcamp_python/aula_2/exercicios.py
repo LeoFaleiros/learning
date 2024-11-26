@@ -75,16 +75,23 @@
 
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-def calcula_potencia(base, expoente):
-    potencia = base ** expoente
-    return potencia
+# def calcula_potencia(base, expoente):
+#     potencia = base ** expoente
+#     return potencia
 
 
-base = float(input("Digite a base da potencia: "))
-expoente = float(input("Digite o expoente da potencia: "))
-print(f"A potencia de {base} elevado a {expoente} é {calcula_potencia(base, expoente)}")
+# base = float(input("Digite a base da potencia: "))
+# expoente = float(input("Digite o expoente da potencia: "))
+# print(f"A potencia de {base} elevado a {expoente} é {calcula_potencia(base, expoente)}")
 
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+def converte_celsius_para_fahrenheit(celsius):
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
+
+celsius = float(input("Digite a temperatura em Celsius: "))
+print(f"A temperatura em Fahrenheit é {converte_celsius_para_fahrenheit(celsius)}")
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 # #### Strings (`str`)
