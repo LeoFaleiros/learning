@@ -127,18 +127,30 @@
 # print(remove_espacos(texto))
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-def dia_mes_ano(data):
-    return data.split("/")
+# def dia_mes_ano(data):
+#     return data.split("/")
 
 
-data = input("Digite uma data no formato dd/mm/aaaa: ")
-print(f"O dia é {dia_mes_ano(data)[0]}, o mês é {dia_mes_ano(data)[1]} e o ano {dia_mes_ano(data)[2]}")
+# data = input("Digite uma data no formato dd/mm/aaaa: ")
+# print(f"O dia é {dia_mes_ano(data)[0]}, o mês é {dia_mes_ano(data)[1]} e o ano {dia_mes_ano(data)[2]}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+# def concatena_strings(string1, string2):
+#     return string1 + string2
+
+
+# string1 = input("Digite uma palavra ")
+# string2 = input("Digite outra palavra ")
+# print(concatena_strings(string1, string2))
 
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+bool1 = input = ("Insira um booleano True ou False ")
+bool2 = input = ("Insira outro booleano True ou False")
+teste_bool = bool(bool1) AND bool(bool2)
+
+print(f"O resultado da operação lógica entre {bool1} AND {bool2} é {teste_bool}")
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
